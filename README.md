@@ -66,16 +66,7 @@ The models are trained and evaluated on a dataset of health-related tweets to id
 - Class imbalance handled via class weights (2.5× penalty for misclassifying personal health mentions)
 - Best models saved during training checkpoints
 
----
 
-## Results Summary
-
-| Metric          | LSTM         | Bi-LSTM      |
-|-----------------|--------------|--------------|
-| Accuracy        | 78.11%       | **78.78%**   |
-| Precision (Personal Health) | 0.83         | 0.81         |
-| Recall (Personal Health)    | 0.31         | 0.35         |
-| F1-Score (Personal Health)  | 0.45         | 0.49         |
 
 
 
